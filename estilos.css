@@ -110,7 +110,7 @@ body {
       height: 50px;
       z-index: 2;
       margin-top: -2800px;
-      background-color: #2992dc;
+      background-color: #a72a50;
 
   
     }
@@ -377,6 +377,7 @@ body {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 200px;
+    margin-top: -2890px;
     
   }
   
@@ -384,7 +385,7 @@ body {
     font-weight: normal;
     letter-spacing: .125rem;
     text-transform: uppercase;
-    color: #fff;
+    color: #a72a50;
   }
   
   li {
@@ -393,7 +394,7 @@ body {
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
-    color: #fff;
+    color: #a72a50;
   }
   
   li span {
