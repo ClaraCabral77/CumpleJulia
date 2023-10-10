@@ -846,4 +846,34 @@ img {
 }
 
 
+header {
+  color: #fff;
+  padding: 3em 5%;
+  bottom: 15px;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+  margin-top: -2000px;
+  background-color: #a72a50;
+
+}
+body {
+  height: auto;
+  color: #f75aef;
+  font-family: Roboto, sans-serif;
+  left: 0;
+  line-height: 1.35;
+  margin: 0;
+ position: relative;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  transition: left 0.3s ease-in-out;
+  background-image: url(media/fondo.jpg);
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2000px;
+}
+
+
 }
