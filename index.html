@@ -10,11 +10,8 @@
 </head>
 
 
-
-
-<div class="container">
   <header>
-   
+    <div class="container">
     <div class="lista">
       <li id="nombre">Julia</li>
       <li class="menu1">¿Qué día?</li>
@@ -23,54 +20,64 @@
       <li class="menu1">¿Qué le regalo?</li>
       <li class="menu1">¿Venís?</li>
     </div>
-    <div class="menu-toggle" data-js="menu-toggle">
-      <span class="menu-toggle-grippy"></span>
-      <span class="menu-toggle-label"></span>
-    </div>
-  </header>
+
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+    
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+    
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menusecreto">
+          <a href="#">
+            <li class="listasecreta">¿Qué día?</li>
+          </a>
+          <a href="#">
+            <li class="listasecreta">¿Cómo llego?</li>
+          </a>
+          <a href="#">
+            <li class="listasecreta">¿Qué me pongo?</li>
+          </a>
+          <a href="#">
+            <li class="listasecreta">¿Qué le regalo?</li>
+          </a>
+          <a href="#">
+            <li class="listasecreta">¿Venís?</li>
+          </a>
+          <a href="https://erikterwan.com/" target="_blank">
+            <li class="listasecreta">Show me more</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+    
+
+  </div>
+</header>
+
+
+
+
   <body>
 
   
-  
-  <div class="hidden-panel">
-    
-    <span class="hidden-panel-close" data-js="hidden-panel-close">Close</span>
-    
-    <div class="hidden-panel-content">
-      
-      <nav class="hidden-panel-nav">
-        <h3 >Quick Look</h3>
-        <ul>
-          <li><a href="#quien" title="Home" >Quienes Somos</a></li>
-          <li><a href="#productos" title="About">Productos</a></li>
-          <li><a href="#contacto" title="Contacto">Contacto</a></li>
-          <li><a href="#" title="Work"></a></li>
-          <li><a href="#" title="Contact"></a></li>
-        </ul>
-      </nav>
-      
-      <div class="hidden-panel-text">
-        <p>utilises an absolutely positioned hidden panel which can be triggered by clicking a toggle.</p>
-      </div>
-        
-    </div>
-  </div>
-  </div>
 <main>
-  <p id="quien">
-    The world is changed. 
-    <del>I feel it everywhere all the time.</del>  
-    I feel it in the water. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea tenetur eaque dolorum aut temporibus vitae suscipit iure libero quas, <ins>I feel it in the earth.</ins> nostrum illum cum perspiciatis quos laboriosam repellendus. Facere quam tempora voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aliquid aut placeat culpa alias nostrum veritatis fuga illo eligendi impedit tenetur recusandae natus sint, magnam officia in ipsam dignissimos unde.
-    <ins>I feel it in the earth.</ins>
-    I smell it in the air.
-  </p>
-  <p id="second">
-    The world is changed. 
-    <del>I feel it everywhere all the time.</del>  
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea tenetur eaque dolorum aut temporibus vitae suscipit iure libero quas, <ins>I feel it in the earth.</ins> nostrum illum cum perspiciatis quos laboriosam repellendus. Facere quam tempora voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aliquid aut placeat culpa alias nostrum veritatis fuga illo eligendi impedit tenetur recusandae natus sint, magnam officia in ipsam dignissimos unde.
-    <ins>I feel it in the earth.</ins>
-    I smell it in the air.
-  </p>
+  
 
 
   <div class="containercontador">
@@ -115,6 +122,8 @@
 
 
 </main>
+</body> 
+
 
 <footer class="site-footer">
   <div class="containerfooter">
@@ -151,7 +160,7 @@
   </div>
 </footer>
 
-</body>
+
 
 
  
