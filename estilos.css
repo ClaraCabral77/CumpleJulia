@@ -697,6 +697,7 @@ img {
  
     width: 300px;
     margin: -100px;
+   
     padding: 50px;
     padding-top: 125px;
   
@@ -715,6 +716,7 @@ img {
     display: block;
     padding: 10px 0;
     font-size: 22px;
+    margin-left: 60px;
   }
   
   /*
@@ -759,6 +761,7 @@ body {
  background-size: 100%, 100%;
  background-position: center 150px;
  margin-bottom: 0px;
+
 
 
 }
@@ -828,6 +831,25 @@ font-size: 10px;
 }
 
 
+.layout {
+  display: flex;
+  flex-direction: column;
+ margin-left: 15%;
+  width: 300px;
+  height: 1100px;
+  background-color: #2991dc70;
+  margin-top: 300px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.grid{
+  flex: 1; /* Esto permite que los divs se expandan y ocupen todo el espacio disponible horizontalmente */
+  margin: 10px;
+  border-color: #a72a50;
+  border-style: double;
+}
 
 }
 
