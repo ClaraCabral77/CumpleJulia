@@ -753,12 +753,12 @@ bottom: 15px;
 body {
 
   color: #f75aef;
- background-image: url(media/largo2.jpg);
+ background-image: url(media/relargo.jpg);
  background-position: center;
  background-repeat: no-repeat;
  background-size: 100%, 100%;
  background-position: center 150px;
- margin-bottom: px;
+ margin-bottom: 0px;
 
 
 }
@@ -796,8 +796,8 @@ main{
   color: #333;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 120px;
-margin-top: 550px;
+  margin-bottom: 200px;
+margin-top: 700px;
 font-size: 10px;
 
 
