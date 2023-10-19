@@ -759,7 +759,7 @@ body {
  background-position: center;
  background-repeat: no-repeat;
  background-size: 100%, 100%;
- background-position: center 150px;
+ background-position: center 85px;
  margin-bottom: 0px;
  background-color: #eddde0;
 
@@ -778,7 +778,7 @@ height: 100%;
   flex-direction: column;
   align-items: center;
 margin: -80px auto;
-margin-left: 55px;
+margin-left: 52px;
 
 }
 
@@ -802,7 +802,7 @@ main{
   margin: 0 auto;
   text-align: center;
   margin-bottom: 200px;
-margin-top: 700px;
+margin-top: 550px;
 font-size: 10px;
 
 
