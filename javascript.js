@@ -111,6 +111,11 @@
   
   
   
-  
+  // Mapa //
+
+  function mostrarMapa() {
+    var mapa = document.getElementById("mapa");
+    mapa.style.display = "block";
+  }
   
   
