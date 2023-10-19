@@ -563,7 +563,7 @@ img {
   line-height: 40px;
   text-align: center;
   background-color: #fff; /* White background for social icons */
-  color: #12203c; /* Dark blue color for icon */
+  color: #9a4f5b; /* Dark blue color for icon */
   margin-right: 10px;
   border-radius: 50%;
   font-size: 20px;
@@ -571,7 +571,7 @@ img {
 }
 
 .social-icon:hover {
-  background-color: #12203c; /* Dark blue background on hover */
+  background-color: #9a4f5b; /* Dark blue background on hover */
   color: #fff; /* White color on hover */
 }
 
@@ -754,7 +754,7 @@ bottom: 15px;
 
 body {
 
-  color: #f75aef;
+  color: #f75aef00;
  background-image: url(media/relargo.jpg);
  background-position: center;
  background-repeat: no-repeat;
@@ -803,16 +803,16 @@ main{
   text-align: center;
   margin-bottom: 200px;
 margin-top: 550px;
-font-size: 10px;
+
 
 
 }
  li{
-  font-size: 10px;
+  font-size: 12px;
  }
  
   .containercontador span {
-    font-size: 25px; /* Ajusta el tamaño de fuente según tus necesidades */
+    font-size: 35px; /* Ajusta el tamaño de fuente según tus necesidades */
   }
 
 
@@ -828,7 +828,7 @@ font-size: 10px;
   background-color: #cc929b; /* Dark blue color */
   color: #fff;
   padding: 20px 0;
-  margin-top: 1500px;
+  margin-top: 1600px;
   height: 200px;
 }
 
@@ -856,8 +856,8 @@ font-size: 15px;
  margin-left: 15%;
   width: 300px;
   height: 1100px;
-  background-color: #2991dc70;
-  margin-top: 250px;
+  background-color: #2991dc00;
+  margin-top: 280px;
   display: flex;
   flex-wrap: wrap;
  
@@ -865,13 +865,13 @@ font-size: 15px;
 
 #mapaClick{
   font-size: 40px;
-  color: #b33030b9;
+  color: #b3303000;
 }
 
 .grid{
   flex: 1; /* Esto permite que los divs se expandan y ocupen todo el espacio disponible horizontalmente */
   margin: 10px;
-  border-color: #a72a50;
+  border-color: #a72a4f00;
   border-style: double;
 }
 
