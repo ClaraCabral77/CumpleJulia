@@ -1,10 +1,4 @@
-
-
-  body.panel-open {
-    left: -250px;
-  }
-  
-  .container {
+ .container {
     min-height: 1000px;
   }
   
@@ -60,7 +54,7 @@
      text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
       transition: left 0.3s ease-in-out;
-      background-image: url(media/fondo.jpg);
+      background-image: url(media/fondo2.jpg);
      background-size: cover;
      
     }
@@ -509,7 +503,7 @@ img {
   background-color: #7c236d; /* Dark blue color */
   color: #fff;
   padding: 20px 0;
-  margin-top: 1500px;
+  margin-top: 6500px;
   height: 300px;
 }
 
@@ -877,7 +871,7 @@ font-size: 15px;
   position: absolute; /* Cambiar a position: absolute si es necesario */
   bottom: 10px; /* Ajusta la posición vertical */
   right: 125px; /* Ajusta la posición horizontal */
-  top:460px;
+  top:420px;
 }
 
 
