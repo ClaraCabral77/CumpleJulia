@@ -876,15 +876,19 @@ font-size: 15px;
   border-style: double;
 }
 
-#wsp{
-  width: 20%; /* Cambia el valor según lo que se vea mejor en tu diseño */
-  max-width: 60px; /* Establece un ancho máximo para evitar que se haga demasiado grande */
-  height: auto; /* Mantén la relación de aspecto original */
-  margin-top: 0;
-  margin-left: 22%;
-
-
+#venis {
+  position: relative; /* Agregar position: relative al contenedor */
 }
+#wsp {
+  width: 20%;
+  max-width: 60px;
+  height: auto;
+  position: absolute; /* Cambiar a position: absolute si es necesario */
+  bottom: 10px; /* Ajusta la posición vertical */
+  right: 150px; /* Ajusta la posición horizontal */
+  top:0px;
+}
+
 
 
   
