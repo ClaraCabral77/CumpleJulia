@@ -877,10 +877,12 @@ font-size: 15px;
 }
 
 #wsp{
-  width:60px;
-  height: 60px;
-  margin-top: 0px;
-  margin-left: 20%;
+  width: 20%; /* Cambia el valor según lo que se vea mejor en tu diseño */
+  max-width: 60px; /* Establece un ancho máximo para evitar que se haga demasiado grande */
+  height: auto; /* Mantén la relación de aspecto original */
+  margin-top: 0;
+  margin-left: 22%;
+
 
 }
 
