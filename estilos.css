@@ -876,7 +876,7 @@ font-size: 15px;
   height: auto;
   position: absolute; /* Cambiar a position: absolute si es necesario */
   bottom: 10px; /* Ajusta la posición vertical */
-  right: 135px; /* Ajusta la posición horizontal */
+  right: 125px; /* Ajusta la posición horizontal */
   top:460px;
 }
 
