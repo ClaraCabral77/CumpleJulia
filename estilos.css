@@ -715,7 +715,7 @@ img {
   .listasecreta {
     display: block;
     padding: 10px 0;
-    font-size: 22px;
+    font-size: 18px;
     margin-left: 60px;
   }
   
@@ -885,8 +885,8 @@ font-size: 15px;
   height: auto;
   position: absolute; /* Cambiar a position: absolute si es necesario */
   bottom: 10px; /* Ajusta la posición vertical */
-  right: 148px; /* Ajusta la posición horizontal */
-  top:90px;
+  right: 145px; /* Ajusta la posición horizontal */
+  top:150px;
 }
 
 
