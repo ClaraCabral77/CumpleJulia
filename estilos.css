@@ -54,8 +54,11 @@
      text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
       transition: left 0.3s ease-in-out;
-      background-image: url(media/fondo2.jpg);
-     background-size: cover;
+      background-image: url(media/fondomovil.jpg);
+     background-size: 100%, 100%;
+     background-repeat: no-repeat;
+     background-position: center 300px;
+    
      
     }
     body.panel-open {
@@ -94,7 +97,7 @@
       width: 100%;
       height: 50px;
       z-index: 2;
-      margin-top: -2800px;
+
       background-color: #a72a50;
 
   
@@ -197,8 +200,9 @@
   
     main{
       
-      margin-top: -90px;
+      margin-top: 90px;
       height: 200px;
+   
     }
   
 
@@ -500,12 +504,14 @@ img {
 
 
 .site-footer {
-  background-color: #7c236d; /* Dark blue color */
+  background-color: #cc929b; /* Dark blue color */
   color: #fff;
   padding: 20px 0;
-  margin-top: 6500px;
+  margin-top: 3400px;
   height: 300px;
+
 }
+
 
 .containerfooter {
   max-width: 1200px;
@@ -533,7 +539,7 @@ img {
 }
 
 .footer-column p {
-  color: #ccc; /* Light gray color for text in columns */
+  color: #ffffff; /* Light gray color for text in columns */
   margin-top: -10px;
 }
 
@@ -865,13 +871,14 @@ font-size: 15px;
   position: relative; /* Agregar position: relative al contenedor */
 }
 #wsp {
-  width: 20%;
-  max-width: 60px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   position: absolute; /* Cambiar a position: absolute si es necesario */
   bottom: 10px; /* Ajusta la posición vertical */
-  right: 125px; /* Ajusta la posición horizontal */
-  top:420px;
+  right: 10px; /* Ajusta la posición horizontal */
+  top:180px;
+  opacity: 0;
 }
 
 
