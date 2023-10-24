@@ -344,7 +344,7 @@
   li span {
     display: block;
     font-size: 4.5rem;
-    color:#f5756c;
+    color:#ffffff;
   }
   
   .emoji {
@@ -755,6 +755,10 @@ img {
     padding: 10px 0;
     font-size: 18px;
     margin-left: 60px;
+    font-family: 'Bellota Text', sans-serif;
+
+
+
   }
   
   /*

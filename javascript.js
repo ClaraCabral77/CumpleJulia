@@ -14,7 +14,7 @@
       mm = String(today.getMonth() + 1).padStart(2, "0"),
       yyyy = today.getFullYear(),
       nextYear = yyyy + 1,
-      dayMonth = "11/27/",
+      dayMonth = "11/26/",
       birthday = dayMonth + yyyy;
   
     today = mm + "/" + dd + "/" + yyyy;
